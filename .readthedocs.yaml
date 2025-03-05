@@ -10,7 +10,7 @@ build:
   tools:
     python: "3.9"
   jobs:
-    pre-build:
+    pre_build:
       - "jupyter-book config sphinx docs/"
 
 # Build documentation in the "docs/" directory with Sphinx
